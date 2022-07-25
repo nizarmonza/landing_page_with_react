@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./navbar.jsx"
+import WebNavbar from "./navbar.jsx"
 import Jumbotron from "./jumbotron.jsx"
 import Cards from "./card.jsx"
 import {Container} from 'react-bootstrap';
@@ -12,7 +12,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	return (
 		<div>
-			<Navbar 
+			<WebNavbar 
 				header = "Start Bootstrap"
 				home = "Home"
 				about = "About"
